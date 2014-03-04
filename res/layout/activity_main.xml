@@ -41,8 +41,8 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/chronometer"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" 
-        android:text="@string/app_name"/>
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name" />
 
     <TextView
         android:id="@+id/tv_lastUpdateTime"
@@ -50,7 +50,17 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_firstInstallTime"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp" 
-        android:text="@string/app_name"/>
+        android:layout_marginTop="20dp"
+        android:text="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/img_iconLaunch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_lastUpdateTime"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_launcher"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name" />
 
 </RelativeLayout>
